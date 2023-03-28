@@ -47,11 +47,6 @@ function findControlsContainer() {
 	else {
 		// initialize the observer
 		initializeControlsObserver();
-
-		{
-		  // Call the code to remove the fade bars (not part of Hide-Mouse-Hulu)
-		  removeFadeBars();
-		}
 	}
 }
 
@@ -88,7 +83,8 @@ function removeCollection(collection)
 
 function nerfFlipTray()
 {
-	// Note: I haven't been able to get nerfFlipTray() to work correctly so I'm overriding the style
+	// Note: This function is not currently used.
+	// I haven't been able to get nerfFlipTray() to work correctly so I'm overriding the style
 	// Using the "styles.css" file.  If anyone wants to figure this out, I'd love them forever.
 
 	// Make the fade area of the FliptrayWrapper less egregious
@@ -118,12 +114,25 @@ function removeFadeBars()
 	}
 }
 
+function activateExtension() {
+	removeFadeBars();
+	window.setTimeout(activateExtension, findDelay);
+}
+
+
 function runExtension()
 {
 	// This is the "main" function for this Chrome Extension
+	{
+		// This is for removing unwanted faders
+		activateExtension();
+	}
 	
-	// start finding the controls container
-	findControlsContainer();
+	{
+		// The following line actually activates the "Hide-Mouse-Hulu" feature
+		// start finding the controls container
+		findControlsContainer();
+	}
 }
 
 // Run the code for the Chrome Extension
