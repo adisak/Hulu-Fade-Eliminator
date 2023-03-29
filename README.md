@@ -10,6 +10,12 @@ Many thanks to Hide-Mouse-Hulu extension for the example of how to implement thi
 
 -----
 
+Now available in Google's Chrome Web Store as well:
+
+https://chrome.google.com/webstore/detail/hulu-fade-eliminator/nlpaahefcnnjkbidjipooakajpeibfea
+
+-----
+
 NOTE: If you want to modify the gradient for the Hulu FliptrayWrapper...
 
 The original gradient for the FliptrayWrapper is:
