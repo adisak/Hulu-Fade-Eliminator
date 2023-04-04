@@ -1,5 +1,5 @@
 # Hulu-Fade-Eliminator
-Hulu cosmetic changes: Remove Fade Scrims and Reduce amount of Fade over Controls / Subtitles
+Hulu cosmetic changes: Remove Fade Scrims* and Reduce amount of Fade over Controls / Subtitles
 	https://github.com/adisak/Hulu-Fade-Eliminator
 
 Copyright 2023 Adisak Pochanayon
@@ -7,6 +7,8 @@ contact: adisak@gmail.com
 
 Many thanks to Hide-Mouse-Hulu extension for the example of how to implement this
 	https://github.com/NateXVI/Hide-Mouse-Hulu
+
+* The definition of scrim is "(in a theater) a piece of gauze cloth that appears opaque until lit from behind, used as a screen or backdrop."  Hulu's web page code calls the Fade Bars at the Top and Bottom of the Screen "scrims".
 
 -----
 
