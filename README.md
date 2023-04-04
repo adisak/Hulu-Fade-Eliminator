@@ -8,7 +8,7 @@ contact: adisak@gmail.com
 Many thanks to Hide-Mouse-Hulu extension for the example of how to implement this
 	https://github.com/NateXVI/Hide-Mouse-Hulu
 
-* The definition of scrim is "(in a theater) a piece of gauze cloth that appears opaque until lit from behind, used as a screen or backdrop."  Hulu's web page code calls the Fade Bars at the Top and Bottom of the Screen "scrims".
+\* The definition of scrim is "(in a theater) a piece of gauze cloth that appears opaque until lit from behind, used as a screen or backdrop."  Hulu's web page code calls the Fade Bars at the Top and Bottom of the Screen "scrims".
 
 -----
 
